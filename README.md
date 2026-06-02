@@ -55,4 +55,5 @@ Join our community of developers creating universal apps.
 -## Download APK
 
 You can download and install the latest APK from the link below:
+
 https://expo.dev/artifacts/eas/9URzw5sQEh18C2ecmvK2aZ.apk
