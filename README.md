@@ -17,7 +17,7 @@ An AI-powered diet planning application built using React Native, Expo, Convex, 
 * Expo
 * Convex Database
 * Firebase Authentication
-* OpenRouter AI
+*OpenAI Router(Google Gemini AI)
 
 ## APK Download
 
