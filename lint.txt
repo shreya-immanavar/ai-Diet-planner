@@ -1,0 +1,53 @@
+
+> ai-diet-planner@1.0.0 lint
+> expo lint
+
+env: load .env.local
+env: export CONVEX_DEPLOYMENT EXPO_PUBLIC_CONVEX_URL EXPO_PUBLIC_CONVEX_SITE_URL EXPO_PUBLIC_FIREBASE_API_KEY EXPO_PUBLIC_OPENROUTER_API_KEY
+
+c:\projects\ai-Diet-planner\app\(tabs)\Home.jsx
+   1:16  warning  'Text' is defined but never used                                                                           no-unused-vars
+  27:8   warning  React Hook useEffect has a missing dependency: 'router'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+c:\projects\ai-Diet-planner\app\(tabs)\Meals.jsx
+  1:10  warning  'view' is defined but never used  no-unused-vars
+
+c:\projects\ai-Diet-planner\app\(tabs)\Profile.jsx
+  1:10  warning  'view' is defined but never used  no-unused-vars
+
+c:\projects\ai-Diet-planner\app\(tabs)\Progress.jsx
+  1:10  warning  'view' is defined but never used  no-unused-vars
+
+c:\projects\ai-Diet-planner\app\auth\SignIn.jsx
+  25:11  warning  'user' is assigned a value but never used                        no-unused-vars
+  92:14  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+c:\projects\ai-Diet-planner\app\index.jsx
+  17:11  warning  'user' is assigned a value but never used                                                                                             no-unused-vars
+  38:6   warning  React Hook useEffect has missing dependencies: 'convex', 'router', and 'setUser'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+c:\projects\ai-Diet-planner\app\preferance\index.jsx
+   56:18  warning  'error' is defined but never used. Allowed unused caught errors must match /^_/u  no-unused-vars
+   68:15  warning  'result' is assigned a value but never used                                       no-unused-vars
+  136:49  warning  Expected '===' and instead saw '=='                                               eqeqeq
+  149:49  warning  Expected '===' and instead saw '=='                                               eqeqeq
+  165:25  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                   react/no-unescaped-entities
+  173:47  warning  Expected '===' and instead saw '=='                                               eqeqeq
+  188:47  warning  Expected '===' and instead saw '=='                                               eqeqeq
+  203:47  warning  Expected '===' and instead saw '=='                                               eqeqeq
+
+c:\projects\ai-Diet-planner\components\GenerateRecipeCard.jsx
+  1:10  warning  'View' is defined but never used    no-unused-vars
+  5:8   warning  'Button' is defined but never used  no-unused-vars
+
+c:\projects\ai-Diet-planner\components\TodayProgress.jsx
+  28:26  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  54:20  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+c:\projects\ai-Diet-planner\components\TodaysMealPlan.jsx
+   7:22  warning  'setMealPlan' is assigned a value but never used                 no-unused-vars
+  31:31  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  32:22  error    'Button' is not defined                                          react/jsx-no-undef
+
+✖ 24 problems (6 errors, 18 warnings)
+
