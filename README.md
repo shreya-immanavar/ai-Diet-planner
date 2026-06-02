@@ -1,59 +1,64 @@
-# Welcome to your Expo app 👋
+# AI Diet Planner 🍎
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).[shared](shared)
+An AI-powered diet planning application built using React Native, Expo, Convex, Firebase, and OpenRouter AI.
 
-## Get started
+## Features
 
-1. Install dependencies
+* Personalized meal planning
+* AI-generated recipe recommendations
+* Daily nutrition tracking
+* User authentication
+* Progress monitoring dashboard
+* Modern and responsive mobile UI
 
-   ```bash
-   npm install
-   ```
+## Tech Stack
 
-2. Start the app
+* React Native
+* Expo
+* Convex Database
+* Firebase Authentication
+* OpenRouter AI
 
-   ```bash
-   npx expo start
-   ```
+## APK Download
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-
-- ##AUTHOR
-- shreya immannavar
-
--## Download APK
-
-You can download and install the latest APK from the link below:
+Download and install the latest Android APK:
 
 https://expo.dev/artifacts/eas/9URzw5sQEh18C2ecmvK2aZ.apk
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone <repository-url>
+cd ai-Diet-planner
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npx expo start
+```
+
+## Environment Variables
+
+Create a `.env.local` file and add the required API keys:
+
+```env
+EXPO_PUBLIC_CONVEX_URL=your_convex_url
+EXPO_PUBLIC_FIREBASE_API_KEY=your_firebase_key
+EXPO_PUBLIC_OPENROUTER_API_KEY=your_openrouter_key
+EXPO_PUBLIC_AIRGURU_LAB_API_KEY=your_airguru_key
+```
+
+## Author
+
+Shreya Immanavar
+
+Information Science & Engineering Student
